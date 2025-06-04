@@ -9,7 +9,6 @@ jobs:
     secrets: 
       AQUA_KEY: ${{ secrets.AQUA_KEY }}
       AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
-      GH_TOKEN: ${{ secrets.github_token }}
       AQUA_URL: ${{ secrets.AQUA_URL }}
       CSPM_URL: ${{ secrets.CSPM_URL }}
       
