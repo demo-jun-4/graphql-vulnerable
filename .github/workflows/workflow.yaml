@@ -1,0 +1,14 @@
+name: Aqua
+on: 
+  push:
+    branches:
+      - 2025-test
+jobs:
+  aqua-scan:
+    uses: demo-jun-4/shared-workflows/blob/main/.github/workflows/aquasec-scan.yml@main
+    secrets: 
+      AQUA_KEY: ${{ secrets.AQUA_KEY }}
+      AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
+      GH_TOKEN: ${{ secrets.github_token }}
+      AQUA_URL: ${{ secrets.AQUA_URL }}
+      CSPM_URL: ${{ secrets.CSPM_URL }}
