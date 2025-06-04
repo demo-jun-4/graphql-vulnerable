@@ -2,7 +2,7 @@ name: Aqua
 on: 
   push:
     branches:
-      - 2025-test
+      - master
 jobs:
   aqua-scan:
     uses: demo-jun-4/shared-workflows/.github/workflows/aquasec-scan.yml@main
