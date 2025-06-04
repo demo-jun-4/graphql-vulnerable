@@ -12,3 +12,4 @@ jobs:
       GH_TOKEN: ${{ secrets.github_token }}
       AQUA_URL: ${{ secrets.AQUA_URL }}
       CSPM_URL: ${{ secrets.CSPM_URL }}
+      
